@@ -1,7 +1,0 @@
-{
-  "name": "yandex-go-clone",
-  "type": "react",
-  "integrations": {
-    "capacitor": {}
-  }
-}
