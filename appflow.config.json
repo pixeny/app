@@ -1,4 +1,9 @@
 {
-  "type": "capacitor",
-  "platforms": ["ios"]
+  "apps": [
+    {
+      "appId": "com.yandexgo.clone",
+      "platform": "ios",
+      "type": "capacitor"
+    }
+  ]
 }
