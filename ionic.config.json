@@ -1,0 +1,7 @@
+{
+  "name": "pixeny-app",
+  "type": "react",
+  "integrations": {
+    "capacitor": {}
+  }
+}
