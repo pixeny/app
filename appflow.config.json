@@ -1,4 +1,10 @@
 {
-  "type": "capacitor",
-  "platform": "ios"
+  "apps": [
+    {
+      "appId": "d33f44e7",
+      "root": ".",
+      "platform": "ios",
+      "type": "capacitor"
+    }
+  ]
 }
