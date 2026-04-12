@@ -1,3 +1,4 @@
 {
-  "type": "capacitor"
+  "type": "capacitor",
+  "platforms": ["ios"]
 }
