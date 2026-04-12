@@ -4,15 +4,10 @@ const config: CapacitorConfig = {
   appId: 'com.yandexgo.clone',
   appName: 'Yandex Go Clone',
   webDir: 'dist',
+  bundledWebRuntime: false,
+
   server: {
-    url: 'http://192.168.56.1:3000', // This will be updated dynamically
-    cleartext: true
-  },
-  plugins: {
-    LiveReload: {
-      enabled: true,
-      url: 'http://192.168.56.1:3000'
-    }
+    androidScheme: 'https'
   }
 };
 
