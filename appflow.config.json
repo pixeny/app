@@ -1,9 +1,4 @@
 {
-  "apps": [
-    {
-      "appId": "d33f44e7",
-      "platform": "ios",
-      "type": "capacitor"
-    }
-  ]
+  "type": "capacitor",
+  "platform": "ios"
 }
