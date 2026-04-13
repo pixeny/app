@@ -2,5 +2,5 @@
   "id": "d33f44e7",
   "platform": "ionic",
   "packageType": "debug",
-  "type": "simulator"
+  "cordovaPlugins": []
 }
