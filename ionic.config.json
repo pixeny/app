@@ -1,0 +1,7 @@
+{
+  "name": "Pixeny",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:40:5-67
+13-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:40:22-64
+14
+15    <application
+15-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:4:5-36:19
+16        android:allowBackup="true"
+16-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:5:9-35
+17        android:debuggable="true"
+18        android:extractNativeLibs="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:6:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:7:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:8:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:9:9-35
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:10:9-40
+24        <activity
+24-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:12:9-25:20
+25            android:name="com.example.myapplication.MainActivity"
+25-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
+26-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:13:13-148
+27            android:exported="true"
+27-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:18:13-36
+28            android:label="@string/title_activity_main"
+28-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:15:13-56
+29            android:launchMode="singleTask"
+29-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:17:13-44
+30            android:theme="@style/AppTheme.NoActionBarLaunch" >
+30-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:16:13-62
+31            <intent-filter>
+31-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:20:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:21:17-69
+32-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:22:17-77
+34-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+39            android:name="androidx.core.content.FileProvider"
+39-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:28:13-62
+40            android:authorities="com.example.myapplication.fileprovider"
+40-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:29:13-64
+41            android:exported="false"
+41-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:30:13-37
+42            android:grantUriPermissions="true" >
+42-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:31:13-47
+43            <meta-data
+43-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:32:13-34:64
+44                android:name="android.support.FILE_PROVIDER_PATHS"
+44-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:33:17-67
+45                android:resource="@xml/file_paths" />
+45-->C:\Users\user\Downloads\yandex-go-frontend-clone (6)\android\app\src\main\AndroidManifest.xml:34:17-51
+46        </provider>
+47    </application>
+48
+49</manifest>

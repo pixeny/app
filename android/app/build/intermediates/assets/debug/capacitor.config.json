@@ -1,0 +1,15 @@
+{
+	"appId": "com.yandexgo.clone",
+	"appName": "Yandex Go Clone",
+	"webDir": "dist",
+	"server": {
+		"url": "http://192.168.0.101:3000",
+		"cleartext": true
+	},
+	"plugins": {
+		"LiveReload": {
+			"enabled": true,
+			"url": "http://192.168.0.101:3000"
+		}
+	}
+}

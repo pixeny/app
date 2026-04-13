@@ -1,20 +1,23 @@
 {
   "name": "react-vite-tailwind",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "setup:livereload": "node scripts/setup-livereload.js",
-    "cap:build": "npm run build && npx cap sync android",
-    "cap:run": "npm run setup:livereload && npm run dev && npx cap run android --live-reload --external",
-    "cap:open": "npx cap open android",
-    "cap:sync": "npx cap sync android",
-    "android:dev": "npm run setup:livereload && concurrently \"npm run dev\" \"npx cap run android --live-reload\"",
-    "android:build": "npm run build && npx cap sync android && npx cap open android",
-    "android:studio": "npm run android:build && npx cap open android"
+
+    "cap:build": "npm run build && npx cap sync",
+    "cap:sync": "npx cap sync",
+    "cap:open:ios": "npx cap open ios",
+    "cap:open:android": "npx cap open android",
+
+    "ios:build": "npm run build && npx cap sync ios",
+    "android:build": "npm run build && npx cap sync android",
+
+    "ios:open": "npx cap open ios",
+    "android:open": "npx cap open android"
   },
   "dependencies": {
     "@capacitor/android": "^8.3.0",
@@ -24,7 +27,6 @@
     "@googlemaps/js-api-loader": "^2.0.2",
     "@googlemaps/react-wrapper": "^1.2.0",
     "@supabase/supabase-js": "^2.103.0",
-    "@types/leaflet": "^1.9.21",
     "axios": "^1.13.6",
     "clsx": "2.1.1",
     "leaflet": "^1.9.4",
@@ -43,10 +45,8 @@
     "@types/node": "^22.0.0",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "@types/socket.io-client": "^1.4.36",
     "@vitejs/plugin-react": "5.1.1",
     "concurrently": "^9.2.1",
-    "electron": "^41.2.0",
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
     "vite": "7.2.4",
