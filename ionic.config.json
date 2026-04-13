@@ -1,7 +1,7 @@
 {
-  "name": "შენი-აპლიკაციის-სახელი",
+  "name": "Pixeny",
   "integrations": {
     "capacitor": {}
   },
-  "type": "react" 
+  "type": "react"
 }
