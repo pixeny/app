@@ -1,5 +1,6 @@
 {
   "id": "d33f44e7",
   "platform": "ionic",
-  "packageType": "debug"
+  "packageType": "debug",
+  "type": "simulator"
 }
